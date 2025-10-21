@@ -21,13 +21,13 @@ class SignupActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         // Check if user previously chose "Remember Me"
-        val isRemembered = sharedPrefs.getBoolean("remembered", false)
-        if (isRemembered) {
+        //val isRemembered = sharedPrefs.getBoolean("remembered", false)
+        //if (isRemembered) {
             // Skip login and go directly to HomeActivity
-            startActivity(Intent(this, HomeActivity::class.java))
-            finish()
-            return
-        }
+            //startActivity(Intent(this, HomeActivity::class.java))
+            //finish()
+            //return
+        //}
 
         setContentView(R.layout.activity_signup)
 
